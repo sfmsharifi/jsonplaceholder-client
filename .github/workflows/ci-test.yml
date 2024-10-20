@@ -27,5 +27,4 @@ jobs:
 
     - name: Check type errors with Mypy
       run: |
-        pip install mypy
         mypy app.py  # Run Mypy on your application
