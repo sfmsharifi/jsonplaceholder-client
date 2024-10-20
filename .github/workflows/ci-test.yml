@@ -23,7 +23,8 @@ jobs:
 
     - name: Run tests with pytest
       run: |
-        pytest --cov=app  # Run tests and generate coverage report
+        pytest test_app.py
+        pytest --cov=app test_app.py # Run tests and generate coverage report
 
     - name: Check type errors with Mypy
       run: |
