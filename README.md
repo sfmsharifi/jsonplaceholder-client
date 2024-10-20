@@ -2,6 +2,20 @@
 
 A Python application that interacts with the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) to fetch and display data about users, albums, and posts. The project includes a test suite to ensure the reliability of API interactions.
 
+## Folder Structure
+jsonplaceholder-client/                  
+│
+├── .github/                        
+│   └── workflows/                  
+│       └── ci-test.yml             # CI workflow file for automated testing using GitHub Actions
+│
+├── app.py                          # Main application code
+│
+├── test_app.py                     # Unit tests for the app (uses pytest and requests-mock)
+│
+├── README.md                       # Documentation (explains how to set up and run the project)
+└── requirements.txt                # List of dependencies
+
 ## Features
 - Fetch user data
 - Retrieve albums
