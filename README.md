@@ -41,6 +41,6 @@ To set up the project locally, follow these instructions:
    ```bash
    pytest test_app.py
    
-6. **checking test coverage**:
+6. **Checking test coverage**:
    ```bash
    pytest --cov=app test_app.py
