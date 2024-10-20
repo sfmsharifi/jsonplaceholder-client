@@ -3,6 +3,7 @@
 A Python application that interacts with the [JSONPlaceholder API](https://jsonplaceholder.typicode.com/) to fetch and display data about users, albums, and posts. The project includes a test suite to ensure the reliability of API interactions.
 
 ## Folder Structure
+```bash
 jsonplaceholder-client/                  
 │
 ├── .github/                        
