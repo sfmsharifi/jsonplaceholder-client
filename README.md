@@ -12,8 +12,8 @@ A Python application that interacts with the [JSONPlaceholder API](https://jsonp
 ## Technologies Used
 - Python 3.10+
 - Requests library
-- pytest for testing
-- requests-mock for mocking API responses
+- Pytest for testing
+- Requests-mock for mocking API responses
 - GitHub Actions for CI/CD
 
 ## Getting Started
@@ -29,7 +29,7 @@ To set up the project locally, follow these instructions:
    ```bash
    pip install -r requirements.txt
    
-4. **Run the application**:
+4. **Runing the application**:
    ```bash
    python app.py
    
